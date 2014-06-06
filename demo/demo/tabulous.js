@@ -25,8 +25,8 @@
     Plugin.prototype = {
 
         init: function() {
-
-            var links = this.$elem.find('a');
+            //var links = $('.istabs');
+            var links = this.$elem.find('.istabs');
             var firstchild = this.$elem.find('li:first-child').find('a');
             var lastchild = this.$elem.find('li:last-child').after('<span class="tabulousclear"></span>');
 

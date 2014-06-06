@@ -1,40 +1,11 @@
 $(document).ready(function($) {
-    
-
     $('#tabs').tabulous({
     	effect: 'scale'
     });
-
-     $('#tabs2').tabulous({
-    	effect: 'slideLeft'
+    $('#tabs2').tabulous({
+        effect: 'scale'
     });
-
-     $('#tabs3').tabulous({
-    	effect: 'scaleUp'
+    $('#tabs3').tabulous({
+        effect: 'scale'
     });
-
-    $('#tabs4').tabulous({
-    	effect: 'flip'
-    });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 });
